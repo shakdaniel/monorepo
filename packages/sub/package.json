@@ -1,0 +1,7 @@
+{
+  "name": "@monorepo/sub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "shak daniel",
+  "license": "MIT"
+}
