@@ -8,5 +8,8 @@
     "@monorepo/sub": "1.0.0",
     "@monorepo/mul": "1.0.0",
     "@monorepo/div": "1.0.0"
+  },
+  "scripts": {
+    "test": "echo testing common with version: $npm_package_version"
   }
 }

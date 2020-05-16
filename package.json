@@ -1,21 +1,16 @@
 {
-  "name": "monorepo",
   "private": true,
-  "version": "0.0.1",
-  "main": "index.js",
-  "license": "MIT",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "test": "lerna run test",
-    "clean": "rm -rf node_modules packages/**/dist"
-  },
-  "dependencies": {
-    "concurrently": "^5.2.0"
+    "test": "lerna run test --since",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff",
+    "clean": "rm -rf node_modules yarn.lock"
   },
   "devDependencies": {
     "lerna": "^3.21.0"
-  }
+  },
+  "name": "monorepo"
 }
