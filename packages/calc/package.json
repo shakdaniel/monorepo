@@ -1,13 +1,13 @@
 {
   "name": "@monorepo/calc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "@monorepo/add": "1.0.0",
-    "@monorepo/sub": "1.0.0",
-    "@monorepo/mul": "1.0.0",
-    "@monorepo/div": "1.0.0"
+    "@monorepo/add": "^1.0.1",
+    "@monorepo/div": "^1.0.1",
+    "@monorepo/mul": "^1.0.1",
+    "@monorepo/sub": "^1.0.1"
   },
   "scripts": {
     "test": "echo testing common with version: $npm_package_version"
