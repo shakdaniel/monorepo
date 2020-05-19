@@ -1,5 +1,4 @@
 {
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
@@ -7,10 +6,12 @@
     "test": "lerna run test --since",
     "new-version": "lerna version --conventional-commits --yes",
     "diff": "lerna diff",
+    "publish": "lerna publish",
     "clean": "rm -rf node_modules yarn.lock"
   },
   "devDependencies": {
     "lerna": "^3.21.0"
   },
-  "name": "monorepo"
+  "name": "shak-lerna",
+  "version": "0.0.1"
 }
