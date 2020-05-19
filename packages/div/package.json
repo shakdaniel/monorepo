@@ -6,5 +6,6 @@
   "license": "MIT",
   "scripts": {
     "test": "echo testing common with version: $npm_package_version"
-  }
+  },
+  "gitHead": "563d512a4fdd8529583e914b1e53f024fcd5fe09"
 }
